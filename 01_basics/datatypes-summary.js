@@ -16,10 +16,12 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
+/*
 console.log(id == anotherId); // false
 console.log(id); //Symbol(123)
 console.log(anotherId); //Symbol(123)
 
+*/
 const bigNumber = 3387984655328748943n
 
 
@@ -34,6 +36,7 @@ const myFunction = function(){
     console.log("Hello world!!");
 }
 
+/*
 console.log(typeof bigNumber); //bigint
 
 console.log(typeof Obj); //object
@@ -41,5 +44,44 @@ console.log(typeof Obj); //object
 console.log(typeof myFunction); //function
 
 console.log(typeof heroes); //object
+
+*/
+
+//*****************************************************************/
+
+//Memory
+
+//2 types
+
+// Stack (for primitive datatypes)
+
+// Heap (for non-primitive datatypes)
+
+let myYoutubeName = "TheCorporateGirlVibes"
+
+let anotherYoutubeName = myYoutubeName
+
+anotherYoutubeName = "NaamHamaraRadhe"
+
+console.log(myYoutubeName);
+console.log(anotherYoutubeName);
+
+let userOne ={
+    email : "user@google.com",
+    upi: "user@ybl"
+}
+
+let usertwo = userOne
+
+usertwo.email = "akrati@google.com"
+
+console.log(usertwo.email);
+console.log(userOne.email);
+
+
+
+
+
+
 
 
