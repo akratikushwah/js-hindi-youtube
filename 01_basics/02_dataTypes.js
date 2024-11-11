@@ -20,3 +20,8 @@ symbol = unique
 
 console.log(typeof null); //object
 console.log(typeof undefined); //undefined
+console.log(typeof name)
+
+const name1 = new String("Ramlali")
+
+console.log(typeof name1);
