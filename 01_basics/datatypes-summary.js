@@ -63,8 +63,8 @@ let anotherYoutubeName = myYoutubeName
 
 anotherYoutubeName = "NaamHamaraRadhe"
 
-console.log(myYoutubeName);
-console.log(anotherYoutubeName);
+console.log(myYoutubeName); //TheCorporateGirlVibes
+console.log(anotherYoutubeName); //NaamHamaraRadhe
 
 let userOne ={
     email : "user@google.com",
@@ -73,10 +73,12 @@ let userOne ={
 
 let usertwo = userOne
 
-usertwo.email = "akrati@google.com"
+console.log(usertwo.email) // user@google.com
 
-console.log(usertwo.email);
-console.log(userOne.email);
+usertwo.email = "akrati@amazon.com"
+
+console.log(usertwo.email); // akrati@amazon.com
+console.log(userOne.email); //akrati@amazon.com
 
 
 

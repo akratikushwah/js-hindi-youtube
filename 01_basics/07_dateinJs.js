@@ -34,7 +34,7 @@ console.log(Math.floor(Date.now()/1000));// current time in secs
 
 let newDate = new Date();
 console.log(newDate); // 2024-11-12T17:27:56.790Z
-console.log(newDate.getMonth()); // 10 -> November
+console.log(newDate.getMonth()); // 10 -> November // months starts from 0 in this function
 console.log(newDate.getMonth() + 1); // 11 -> November
 
 

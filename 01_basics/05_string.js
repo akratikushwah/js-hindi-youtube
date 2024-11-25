@@ -39,6 +39,6 @@ console.log(url.includes("Akrati")); // it will tell whether the url contain wor
 
 const gameName1 = new String("Akrati-Kushwah-SDE")
 
-console.log(gameName1.split('-'));// strings will split on the basis of '-'
+console.log(gameName1.split('-'));// strings will split on the basis of '-' //[ 'Akrati', 'Kushwah', 'SDE' ]
 
 

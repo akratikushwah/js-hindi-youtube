@@ -29,13 +29,13 @@ const hundreds = 1000000
 
 // console.log(Math.abs(-4)); //4 -> absolute value of -4
 // console.log(Math.round(4.7)); //5
-// console.log(Math.ceil(4.2)); // 5
-// console.log(Math.floor(4.6)); //4
+// console.log(Math.ceil(4.2)); // 5 --> ek dum upar wali value
+// console.log(Math.floor(4.6)); //4 --> ek dum neeche wali value
 // console.log(Math.min(2,3,4,8)); //2
 // console.log(Math.max(2 , 3, 4, 5)); //5
 
 // console.log(Math.random()); // op- value between 0 to 1 --> different output each time you run the program //0.6905612675308397
-// console.log((Math.random()*10) + 1); //9.731351439540363
+// console.log((Math.random()*10) + 1); //9.731351439540363 so that the value comes in between 0 to 10
 
 console.log((Math.floor(Math.random()*10)) + 1); //7 --> floor will round of it to the lowest digit
 

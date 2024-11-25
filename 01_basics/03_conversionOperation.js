@@ -35,7 +35,7 @@ let value = 3
 
 let negValue = -value
 
-//console.log(negValue);
+//console.log(negValue); //-3
 
 let str1 = "Hello"
 let str2 = " Akrati"
