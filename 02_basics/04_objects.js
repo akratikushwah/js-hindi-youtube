@@ -79,11 +79,17 @@ const {courseInstructor : instructor} = course
 console.log(instructor); //     Hitesh 
 
 
-const navbar = ({company}) => {
+// {
+//     "name" : "Hitesh" , 
+//     "courseName" : "JS in hindi" , 
+//     "price": "Free"
+// }
 
-}
-
-navbar(company = "Hitesh")
+[
+    {} , 
+    {} , 
+    {}
+]
 
 
 
