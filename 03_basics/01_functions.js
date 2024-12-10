@@ -63,10 +63,27 @@ loginUserMessage("Akrati") //no output
 
 //console.log(loginUserMessage("Amit")); //Amit is just logged in
 
-console.log(loginUserMessage()) //undefined is just logged in -- we have not passed any argument hence, the function will retuen undefined
+//console.log(loginUserMessage()) //undefined is just logged in -- we have not passed any argument hence, the function will retuen undefined
 
+function calculateCartPrice(val1 , val2 , ...num1) //rest operator or spread operator ...
+{
+    return num1
+}
 
+console.log(calculateCartPrice(200 , 300 , 500 , 9000)); // [ 500 , 9000 ] ---output is array
 
+const user = {
+    username: "Hitesh",
+    price: 99
+}
 
+function handleObject(anyObject){
+    console.log(`username is  ${anyObject.username} and price is ${anyObject.price}`);
+}
 
+//handleObject(user) //username is  Hitesh and price is 99
 
+handleObject({
+    username: "Akrati" ,
+    price : 900
+})
