@@ -70,7 +70,7 @@ function calculateCartPrice(val1 , val2 , ...num1) //rest operator or spread ope
     return num1
 }
 
-console.log(calculateCartPrice(200 , 300 , 500 , 9000)); // [ 500 , 9000 ] ---output is array
+//console.log(calculateCartPrice(200 , 300 , 500 , 9000)); // [ 500 , 9000 ] ---output is array
 
 const user = {
     username: "Hitesh",
@@ -78,7 +78,7 @@ const user = {
 }
 
 function handleObject(anyObject){
-    console.log(`username is  ${anyObject.username} and price is ${anyObject.price}`);
+    //console.log(`username is  ${anyObject.username} and price is ${anyObject.price}`);
 }
 
 //handleObject(user) //username is  Hitesh and price is 99
@@ -87,3 +87,14 @@ handleObject({
     username: "Akrati" ,
     price : 900
 })
+
+const myNewArray = [200 , 400 , 500 , 600]
+
+function returnSecondValue(getArray){
+    return getArray[0]
+}
+
+//console.log(returnSecondValue(myNewArray)); //200
+
+//console.log(returnSecondValue([100 , 200 , 400 , 700])); //100
+
