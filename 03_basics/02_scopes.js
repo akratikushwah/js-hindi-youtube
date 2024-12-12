@@ -17,7 +17,7 @@ function one(){
 
     function two(){
         const website = "youtube"
-        console.log(username);
+        //console.log(username);
         
     }
     //console.log(website)
@@ -32,7 +32,7 @@ if(true){
 
     if(username === "Akrati"){
         const website = "youtube"
-        console.log(username + website);//Akrati youtube
+        //console.log(username + website);//Akrati youtube
         
     }
    //console.log(website);
@@ -40,6 +40,21 @@ if(true){
 }
 
 //console.log(username);
+
+addone(5) // this is accessible because we have not declared function as variable here
+
+function addone(num){
+    return num + 1;
+}
+
+
+
+
+addtwo(5) //cannot access addtwo before initialization
+const addtwo = function(num){
+    return num + 2;
+}
+
 
 
 
