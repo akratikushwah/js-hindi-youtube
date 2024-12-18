@@ -22,6 +22,6 @@ console.log(typeof null); //object
 console.log(typeof undefined); //undefined
 console.log(typeof name) // string
 
-const name1 = new String("Ramlali")
+const name1 = new String("Shanaya")
 
 console.log(typeof name1); // object
